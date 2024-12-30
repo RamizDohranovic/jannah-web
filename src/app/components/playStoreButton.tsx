@@ -1,5 +1,4 @@
 import Image from "next/image";
-import QRGenerator from "./qrGenerator";
 
 export default function PlayStoreButton({ text }: Readonly<{ text: string }>) {
   return (
@@ -23,10 +22,6 @@ export default function PlayStoreButton({ text }: Readonly<{ text: string }>) {
         </div>
       </a>
       <p className="text-white">OR</p>
-      <QRGenerator
-        url="https://play.google.com/store/apps/details?id=com.jannahadhan.adhan"
-        altText="Jannah - Android"
-      />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import QRGenerator from "./qrGenerator";
 
 export default function AppStoreButton({ text }: Readonly<{ text: string }>) {
   return (
@@ -23,10 +22,6 @@ export default function AppStoreButton({ text }: Readonly<{ text: string }>) {
         </div>
       </a>
       <p className="text-white">OR</p>
-      <QRGenerator
-        url="https://apps.apple.com/us/app/jannah-prayer-times/id6503667491"
-        altText="Jannah - iOS"
-      />
     </div>
   );
 }
