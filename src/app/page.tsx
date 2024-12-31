@@ -15,6 +15,7 @@ export default async function Home() {
     : pageContentMap.get("global");
 
   return (
+    
     <div className="grid grid-rows-[auto_100px] h-full font-[family-name:var(--font-montserrat)]">
       <div className="relative w-full flex flex-col gap-5 px-[5%] sm:px-[20%] py-10 items-center relative bg-cover bg-center">
         <Image
