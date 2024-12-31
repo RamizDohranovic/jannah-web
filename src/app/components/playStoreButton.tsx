@@ -21,7 +21,7 @@ export default function PlayStoreButton({ text }: Readonly<{ text: string }>) {
           </div>
         </div>
       </a>
-      <p className="text-white">OR</p>
+   
     </div>
   );
 }

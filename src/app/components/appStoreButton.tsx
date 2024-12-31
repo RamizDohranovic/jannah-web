@@ -21,7 +21,6 @@ export default function AppStoreButton({ text }: Readonly<{ text: string }>) {
           </div>
         </div>
       </a>
-      <p className="text-white">OR</p>
     </div>
   );
 }
