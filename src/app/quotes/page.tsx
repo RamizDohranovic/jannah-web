@@ -54,7 +54,18 @@ export default async function Quotes() {
         objectFit="cover"
         priority
         quality={90}
-      /> 
+      />
+      <div className="relative w-full overflow-auto flex flex-col gap-5 px-[5%] sm:px-[10%] xl:px-[15%] py-10 items-center relative bg-cover bg-center h-full font-[family-name:var(--font-montserrat)]">
+        <Link href={"/"}>
+          <Image
+            className="dark:invert"
+            src="/jannah_logo.png"
+            alt="Jannah logo"
+            width={100}
+            height={100}
+            priority
+          />
+        </Link>
         <div className="grid grid-cols[1fr] sm:grid-cols-[1fr_1fr] 2xl:grid-cols-[1fr_1fr_1fr] gap-20 my-20">
           {data.map((quote, index) => (
             <CopyButton
@@ -65,6 +76,7 @@ export default async function Quotes() {
             />
           ))}
         </div>
+      </div>
       <Popup buttonText={buttonText} />
     </>
   );
