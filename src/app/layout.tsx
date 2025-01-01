@@ -22,16 +22,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
       <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9777328934038508"
+     crossOrigin="anonymous"></script>
         <link
           rel="preload"
-          href="/background1.png"
+          href="/background.png"
           as="image"
           type="image/png"
         />
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9777328934038508"
-     crossOrigin="anonymous"></script>
       </Head>
       <body className={`${montserrat.variable} antialiased h-screen`}>
         {children}
