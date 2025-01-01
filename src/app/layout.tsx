@@ -24,15 +24,14 @@ export default function RootLayout({
     <html lang="en">
 
       <Head>
-      <meta name="google-adsense-account" content="ca-pub-9777328934038508" />
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9777328934038508"
-     crossOrigin="anonymous"></script>
         <link
           rel="preload"
           href="/background.png"
           as="image"
           type="image/png"
         />
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9777328934038508"
+     crossOrigin="anonymous"></script>
       </Head>
       <body className={`${montserrat.variable} antialiased h-screen`}>
         {children}
