@@ -6,7 +6,7 @@ export const pageContentMap = new Map([
     {
       header: "Dobrodošli na",
       subheader: "Vaš dnevni podsjetnik da budete bolji musliman!",
-      downloadText: "Preuzmite mobilnu aplikaciju preko linka ili QR koda",
+      downloadText: "Preuzmite mobilnu aplikaciju preko linka",
       buttonText: "Preuzmi na",
       quotesText: "Pogledaj citate",
       quotesLinkText: "ovdje",
@@ -17,7 +17,7 @@ export const pageContentMap = new Map([
     {
       header: "Welcome to",
       subheader: "Your daily reminder to be a better muslim!",
-      downloadText: "Download the mobile app from below or scan the QR code",
+      downloadText: "Download the mobile app from below",
       buttonText: "Get it on",
       quotesText: "See wise quotes",
       quotesLinkText: "here",
