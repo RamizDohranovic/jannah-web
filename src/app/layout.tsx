@@ -26,7 +26,7 @@ export default function RootLayout({
       <Head>
         <link
           rel="preload"
-          href="/background.png"
+          href="/background1.png"
           as="image"
           type="image/png"
         />
