@@ -14,10 +14,10 @@ const TermsOfUse = () => {
         Last updated: Sep 10, 2024
       </p>
       <p>
-        Welcome to Jannah ("us", "we", or "our") mobile application. By
-        downloading, installing, and using the Jannah App, you agree to be
-        bound by these Terms of Use. If you do not agree with any part of these
-        terms, please do not use the App.
+        Welcome to Jannah (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;)
+        mobile application. By downloading, installing, and using the Jannah
+        App, you agree to be bound by these Terms of Use. If you do not agree with
+        any part of these terms, please do not use the App.
       </p>
       <h2 style={{ fontWeight: "bold" }}>1. Use of the App</h2>
       <p>
@@ -38,8 +38,8 @@ const TermsOfUse = () => {
       <h2 style={{ fontWeight: "bold" }}>3. User Content</h2>
       <p>
         The Jannah App may allow you to post, submit, or share content,
-        including but not limited to comments, feedback, and suggestions ("User
-        Content"). By posting User Content, you grant us the right to use,
+        including but not limited to comments, feedback, and suggestions (&quot;User
+        Content&quot;). By posting User Content, you grant us the right to use,
         reproduce, modify, and distribute your User Content for any purpose,
         without any obligation to compensate you.
       </p>
@@ -79,8 +79,8 @@ const TermsOfUse = () => {
       </p>
       <h2 style={{ fontWeight: "bold" }}>6. Disclaimer of Warranties</h2>
       <p>
-        The Jannah App is provided on an "as is" and "as available" basis,
-        without any warranties or representations, express or implied. We do
+        The Jannah App is provided on an &quot;as is&quot; and &quot;as available&quot;
+        basis, without any warranties or representations, express or implied. We do
         not warrant that the App will be uninterrupted, error-free, or free
         from viruses or other harmful components. Your use of the App is at
         your own risk.
